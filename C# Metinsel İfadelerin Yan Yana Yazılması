@@ -1,0 +1,17 @@
+using System;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string metin1="Merhaba ";
+            string metin2="Nasılsın";
+            string metin_birlesimi="";
+            metin_birlesimi = metin1.ToString() + metin2.ToString();
+            Console.WriteLine(metin_birlesimi);
+            Console.ReadLine();
+        }
+    }
+}
